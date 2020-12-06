@@ -29,7 +29,7 @@ function checkDay() {
     const wed = document.getElementById('wednesday');
     const fri = document.getElementById('friday');
     const sat = document.getElementById('saturday');
-
+    
     if(today === 0) {
         sun.classList.add('active');
         daySmall.textContent = 'sunday';
