@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #191919;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.main-section {
+    max-height: 100vh;
+}
+
+/* days */
+.days-text {
+    color: #707070;
+    font-size: 1.8rem;
+    letter-spacing: 0.16rem;
+    font-weight: 600;
+}
+
+.active {
+    color: #00FF97!important;
+}
+
+.days {
+    margin-top: 6%;
+}
+
+/* hours */
+
+.hours {
+    font-size: 18rem;
+}
+
+.content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 1275px) {
+    .hours {
+        font-size: 16rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hours {
+        font-size: 14rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .hours {
+        font-size: 12rem;
+    }
+}
+
+
+@media screen and (max-width: 535px) {
+    .hours {
+        font-size: 11rem;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .hours {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .hours {
+        font-size: 9rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hours {
+        font-size: 9rem;
+    }
+}
+
+/* display type */
+.display-type {
+    margin-top: 0;
+}
+
+.type-text {
+    font-size: 2rem;
+}
+
+.btn-type {
+    background: transparent;
+    color: #707070;
+    font-size: 2rem;
+    border: 191919;
+    outline: none!important;
+    padding: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+

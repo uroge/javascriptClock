@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Clock</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css    ">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;600&display=swap" rel="stylesheet">
+    <!-- custom css stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="section main-section p-5">
+        <!-- days -->
+        <div class="container d-none d-sm-block d-md-block d-lg-block">
+            <div class="row days">
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="sunday">
+                        sunday
+                    </h3>
+                </div>
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="monday">
+                        monday
+                    </h3>
+                </div>
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="tuesday">
+                        tuesday
+                    </h3>
+                </div>
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="wednesday">
+                        wednesday
+                    </h3>
+                </div>
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="thursday">
+                        thursday
+                    </h3>
+                </div>
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="friday">
+                        friday
+                    </h3>
+                </div>  
+                <div class="col d-none d-sm-flex d-md-flex justify-content-around flex-wrap mb-4">
+                    <h3 class="text-uppercase days-text" id="saturday">
+                        saturday
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-block d-sm-none d-md-none d-lg-none">
+            <div class="row justify-content-center">
+                <div class="col-10 mx-auto text-center">
+                    <h3 class="text-uppercase days-text active" id="day-small">
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- hours -->
+        <div class="container-fluid">
+            <div class="row max-height justify-content-center align-items-center">
+               <div id="time"></div>
+            </div>
+        </div>
+        
+        <!-- <div class="container text-center hours-height mt-5 mb-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 mx-auto" id="time"></div>
+            </div>
+        </div> -->
+        <!-- 12Hour Military -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-6 col-lg-6 d-flex justify-content-center align-items-center flex-wrap mb-4">
+                    <button class="btn-type text-uppercase type-text active" id="eu-time">military</button>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-6 d-flex justify-content-center align-items-center flex-wrap mb-4">
+                    <button class="btn-type text-uppercase type-text" id="us-time">12 hours</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script/jquery-3.3.1.min.js"></script>
+<script src="script/bootstrap.bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
